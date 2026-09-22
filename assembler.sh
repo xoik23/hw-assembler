@@ -59,7 +59,6 @@ if [ "$first_line" -eq 0 ]; then
         exit 1
     fi
     
-    # [ĐÃ SỬA Ở ĐÂY]: Gán start_index để vòng lặp instruction phía dưới không bị lỗi
     start_index=2 
 
 elif [ "$first_line" -eq 2 ]; then
